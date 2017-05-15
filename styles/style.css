@@ -49,11 +49,16 @@ body {
 }
 
 img.logo.visible-lg-block {
-    width: 282px;
+    width: 350px;
     display: block;
     margin-right: -32px;
-    margin-bottom: -36px;
+    margin-bottom: -50px;
 }
+
+a.logo {
+	margin-right:170px;
+}
+	
 
 a.logo:hover {
     background-color: white !important;
@@ -186,7 +191,7 @@ img.splash.img-responsive.center-block.visible-lg-block{
 
 .main.content.slogan.visible-lg-block {
     position: absolute;
-	left: 200px;
+	left: 135px;
     top: 80px;
     z-index: 1;
     color: white;
@@ -197,7 +202,7 @@ img.splash.img-responsive.center-block.visible-lg-block{
 
 .main.content.positioning.visible-lg-block {
     position: absolute;
-	left: 200px;
+	left: 135px;
     top: 200px;
     z-index: 2;
     color: white;
@@ -206,17 +211,16 @@ img.splash.img-responsive.center-block.visible-lg-block{
 
 
 
-button.button.visible-lg-block {
+a.check_offer.visible-lg-block {
     position: absolute;
-	left: 800px;
+    left: 800px;
     top: 350px;
-    z-index: 3;
-    font-size: 25px;
+    background-color: #63B7F2 !important;
+    box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.6);
+    padding: 13px;
+    color: black;
     font-weight: bold;
-    background-color: #89a0de;
-    border-color: #89a0de;
-    padding: 9px;
-	text-decoration: none;
+    font-size: 23px;
 }
 
 img.splash.img-responsive.center-block.visible-xs-block{
@@ -269,7 +273,6 @@ main h1 {
   /*font-family: 'Cinzel';*/
   font-weight: 700;
   margin-bottom: 20px;
-  border-bottom: 4px solid #000080;
   height: 100%;
   min-height: 40px;
   z-index: 100;
@@ -398,7 +401,7 @@ header nav.navbar .nav-pills > li + li {
 header nav.navbar .nav {
   text-align: center;
   font-size: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 27px;
 }
 header nav.navbar .nav li {
   /*&:after {
