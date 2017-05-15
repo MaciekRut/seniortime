@@ -217,7 +217,6 @@ button.button.visible-lg-block {
     border-color: #89a0de;
     padding: 9px;
 	text-decoration: none;
-	color:black;
 }
 
 img.splash.img-responsive.center-block.visible-xs-block{
@@ -346,6 +345,12 @@ a.learn_more:hover {
     text-decoration: none;
 }
 
+a.check_offer:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 span.glyphicon.glyphicon-question-sign {
     padding: 14px 2px 9px 13px;
 }
@@ -381,6 +386,7 @@ header nav.navbar {
   min-height: 60px;
   z-index: 100;
   margin-bottom: 0;
+  margin-top: 20px;
 
 }
 
@@ -429,7 +435,9 @@ header nav.navbar .collapsing li:after {
 }
 
 
-
+.col-sm-12 {
+    padding-right: 0px;
+}
 
 
 
