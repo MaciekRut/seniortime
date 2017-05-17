@@ -86,12 +86,13 @@ p.slogan1 {
 p.positioning {
     color: white;
 	margin-top: 33px;
+	font-size: 21px;
 }
 
 a.btn.btn-primary.btn-lg.main {
 	float: right;
 	font-size:23px;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#2367a3 100%);
 }
 
