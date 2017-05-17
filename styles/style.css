@@ -2,10 +2,10 @@
 /*menu*/
 
 .navbar-brand>img {
-    display: block;
-    width: 362px;
-    margin-top: -5px;
-	margin-left: -11px;
+	display: block;
+    width: 471px;
+    margin-top: -4px;
+    margin-left: -39px;
 }
 
 nav.navbar.navbar-default.navbar-fixed-top {
@@ -54,12 +54,12 @@ nav.navbar.navbar-default.navbar-fixed-top {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);
     background-repeat: repeat-x;
     box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
-	border-radius: 4px;
+	border-radius: 0px;
 }
 
 .navbar-default {
-    background-color: #f8f8f8;
-    border-color: rgba(20, 20, 134, 0.26);
+    background-color: #fafafa;
+    border-color: rgba(20, 20, 134, 0);
 }
 
 
@@ -92,8 +92,10 @@ p.positioning {
 a.btn.btn-primary.btn-lg.main {
 	float: right;
 	font-size:23px;
+	color: black;
 	/*margin-top: 10px;*/
 	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#2367a3 100%);
+	border-radius: 0px;
 }
 
 /* oferta */
@@ -147,7 +149,7 @@ a.btn.btn-default {
 
 a.btn-primary.offer {
     padding: 9px;
-    border-radius: 4px;
+    border-radius: 0px;
     max-width: 150px;
     margin-left: auto;
     margin-right: auto;
