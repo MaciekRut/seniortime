@@ -14,7 +14,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 .navbar-default .navbar-nav>li>a {
     color: navy;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 
@@ -73,7 +73,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .slogan {
-    margin-top: 90px;
+    margin-top: 80px;
 }
 
 p.slogan1 {
@@ -89,20 +89,36 @@ p.positioning {
 	font-size: 23px;
 }
 
-a.btn.btn-primary.btn-lg.main {
+
+.btn-primary:focus, .btn-primary:hover {
+    background-color: #63acec;
+    background-position: 0 -15px;
+}
+
+a.btn.btn-primary.btn-lg.main,
+a.btn.btn-primary.btn-lg.main:hover
+
+ {
 	float: right;
 	font-size:23px;
 	color: black;
 	margin-top: -2px;
-	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#2367a3 100%);
+	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
 	border-radius: 0px;
-	margin-right: 48px;
+	margin-right: 150px;
 }
 
 /* oferta */
 
-img.icon {
-    max-width: 136px;
+
+.col-md-4.offer {
+    background-color: rgba(128, 128, 128, 0.07);
+    border: solid 12px;
+    border-color: white;
+	padding: 8px;
+}
+
+img.splash.img-responsive.icon {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -127,7 +143,7 @@ p.offer_content {
 
 h2.area_heading {
     color: navy;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 33px;
 }
@@ -135,7 +151,6 @@ h2.area_heading {
 
 p.area_content {
     text-align: center;
-    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 	font-size: 19px;
@@ -155,8 +170,21 @@ a.btn-primary.offer {
     max-width: 150px;
     margin-left: auto;
     margin-right: auto;
+	color:black;
     display: block;
-	background-image: linear-gradient(to bottom,#0b0b84 0,#161687 100%);
+	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
+}
+
+a.btn-primary.offer {
+    text-decoration:none;
+	padding: 9px;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+	font-size:14px;
+	color:black;
+    display: block;
+	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
 }
 
 /*footer*/
