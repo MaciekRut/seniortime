@@ -86,16 +86,17 @@ p.slogan1 {
 p.positioning {
     color: white;
 	margin-top: 33px;
-	font-size: 21px;
+	font-size: 23px;
 }
 
 a.btn.btn-primary.btn-lg.main {
 	float: right;
 	font-size:23px;
 	color: black;
-	/*margin-top: 10px;*/
+	margin-top: -2px;
 	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#2367a3 100%);
 	border-radius: 0px;
+	margin-right: 48px;
 }
 
 /* oferta */
@@ -114,18 +115,19 @@ img.icon {
 
 h2.offer_heading {
     color: navy;
+	font-weight:bold;
 }
 
 p.offer_content {
     max-width: 100%;
 	color: navy;
 	text-align: center;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 h2.area_heading {
     color: navy;
-    font-size: 21px;
+    font-size: 23px;
     font-weight: bold;
     line-height: 33px;
 }
