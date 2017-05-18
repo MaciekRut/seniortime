@@ -181,7 +181,8 @@ a.btn-primary.offer {
     border-radius: 0px;
     margin-left: auto;
     margin-right: auto;
-	font-size:14px;
+    max-width: 183px;
+    font-size: 17px;
 	color:black;
     display: block;
 	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
