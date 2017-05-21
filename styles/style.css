@@ -105,15 +105,15 @@ a.btn.btn-primary.btn-lg.main:hover
 	margin-top: -2px;
 	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
 	border-radius: 0px;
-	margin-right: 150px;
+	margin-right: 205px;
 }
 
 /* oferta */
 
 
-.col-md-4.offer {
+.col-md-6.col-lg-3.offer {
     background-color: rgba(128, 128, 128, 0.07);
-    border: solid 12px;
+    border: solid 6px;
     border-color: white;
 	padding: 8px;
 }
@@ -139,6 +139,7 @@ p.offer_content {
 	color: navy;
 	text-align: center;
     font-size: 23px;
+	margin-top: 23px;
 }
 
 h2.area_heading {
