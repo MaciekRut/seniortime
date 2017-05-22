@@ -21,177 +21,122 @@
   <meta name="keywords" content="Marketing 50+">
   <meta name="author" content="SeniorTime">
   <link rel="stylesheet" type="text/css" href = "./styles/style.css">
+  <link rel="stylesheet" type="text/css" href = "./styles/offer.css">
+  
   <script type="text/javascript" src="./js/index.js"></script>
   
  
 </head>
 
-
-<body>
-<div class="fluid-container">
-
-<!--menu-->
-
-  <header class="row">
-    <nav class="col-md-12 navbar">
+  <body style="font-family:'Lato', sans-serif;">
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <i class="glyphicon glyphicon-menu-hamburger"></i>
+          <button type="button" class="navbar-toggle collapsed visible-xs-block visible-sm-block" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand hidden-xs" href="./index.html"><img class="img-responsive logo" src="assets/images/logo_top.png"></a>
         </div>
-        <div class="row collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <div class="col-md-12">
-            <ul class="nav nav-pills nav-justified">
-              <li><a class="logo" href="./index.html"><img class="logo visible-lg-block" src="./assets/images/logo_top.png"></a></li>	
-			  <li><a href="./index.html">Home</a></li>			  
-              <li><a href="./offer.html" class="active">Oferta</a></li>
-              <li><a href="./about-product.html">Razem50plus</a></li>
-              <li><a href="./about-us.html">O nas</a></li>
-              <li><a href="./contact-us.html">Kontakt</a></li>
-            </ul>
-          </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav visible-md-block visible-lg-block">
+            <li><a class="menu_link" href="./index.html">Home</a></li>
+			  <li class="active"><a class="menu_link" href="./offer.html">Oferta</a></li>
+            <li><a class="menu_link" href="./razem50plus.html">Razem50plus</a></li>			
+            <li><a class="menu_link" href="./o-nas.html">O nas</a></li>
+            <li><a class="menu_link" href="./contact.html">Kontakt</a></li>
+          </ul>
+
         </div>
       </div>
     </nav>
-  </header>
-  
+	</header>
 
-  
-  <main class="row main-content home">
-  
-
+	<main>
 	
-    <div class="col-sm-12">
-      <div class="container main-content">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="our_offer_details">Naszą ofertę kierujemy do małych i średnich przedsiębiorstw, do specjalistów chcących pogłębić wiedzę o seniorach, aby skutecznie do nich dotrzeć z przekazem. 
-			Pomożemy Ci podnieść skuteczność działań skierowanych  osób 50+ oraz  zyskać ich jako swoich klientów.</h2>
-          </div>
-        </div>
-		
-		
-	<!--sekcja ikon-->
-		
-        <div class="row visible-lg-block visible-md-block visible-sm-block">
-          <div class="col-sm-3 col-sm-offset-1 icon">
-            <section>
-              <br/>
-			  <p>
-				<img src="./assets/images/training.png" class="icon">
-              </p>
-
-            </section>
-          </div>
-          <div class="col-sm-3 col-sm-offset-1 icon">
-            <section>
-              <br/>
-			  <p>
-				<img src="./assets/images/bulb.png" class="icon">
-              </p>
-
-            </section>
-          </div>
-          <div class="col-sm-3 col-sm-offset-1 icon">
-            <section>
-              <br/>
-			  <p>
-				<img src="./assets/images/campaign.png" class="icon">
-              </p>
-
-            </section>
-          </div>
-        </div>
-		
-	<!--sekcja obszarów-->
-		
+	
+	<section>
+    <div class="container">
 		<div class="row">
-          <div class="col-sm-3 col-sm-offset-1">
-            <section>
-              <br/>
-			  <p>
-				<span class="black">Przeprowadzimy  szkolenie</span> z wiedzy o „Seniorze-Konsumencie” 
-				oraz <span class="black">wesprzemy doradztwem</span> z obszaru marketingu 50+
-              </p>
-			  <br/>
-			  <p>
-				<a class="learn_more" href="./offer.html"<span class="black">Dowiedz się więcej</span><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>
-              </p>
-			  <br/>
-            </section>
-          </div>
-          <div class="col-sm-3 col-sm-offset-1">
-            <section>
-			  <p>
-			  <br/>
-			    <span class="black">Zweryfikujemy Twoje hipotezy i pytania badawcze</span> 
-				z realnymi seniorami w Internecie, wokół ich potrzeb, motywacji, barier, obaw.
-			  </p>
-			  <br/>
-			  
-			  <p>
-				<a class="learn_more" href="./offer.html"<span class="black">Dowiedz się więcej</span><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>
-              </p>
-			  <br/>
-            </section>
-          </div>
-          <div class="col-sm-3 col-sm-offset-1">
-            <section>
-              <p>
-			  <br/>
-				<span class="black">Przeprowadzimy kampanię reklamową czy PR </span> w jednym 
-				z największych serwisów internetowych dla seniorów, którego jesteśmy Wydawcą
-              </p>
-			  <p>
-				<a class="learn_more" href="./offer.html"<span class="black">Dowiedz się więcej</span><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a>
-			  </p>
-			  <br/>
-			  </section>
-			  
-          </div>
-        </div>		
-      </div>
+			<div class="col-md-12">
+	
+			<!-- Oferta -->
+	  
+	  
+			<h2 class="offer_heading">Nasza oferta</h2>
+			</div>
+			<div class="row">
+			<div class="col-md-12">
+			<p class="offer_content">Specjalizujemy się 4 poniższych obszarach. Swoją ofertę kierujemy 
+			do specjalistów i zespołów chcących pogłębić wiedzę o seniorach, 
+			aby skutecznie do nich dotrzeć z przekazem. 
+			Pomożemy podnieść skuteczność działań skierowanych do osób 50+ oraz zyskać ich jako nowych Klientów.</p>
+			</div>
+			</div>
+			
+			
+			
+	  </div>
     </div>
-  </main>
-  
-  <!--footer-->
-  
-  <footer class="row">
-    <div class="col-sm-12 footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3 hidden-xs">
-            <h1 class="logo"><a href="./index.html"><img class="img-responsive" src="assets/images/logo_white.png"/></a></h1>
-          </div>
-          <div class="col-sm-9">
-            <div class="row">
-              <div class="col-sm-3 col-sm-offset-1 menu_footer">
-                <ul class="nav nav-pills nav-stacked">
-                  <li><a href="./index.html">Home</a></li>
-                  <li><a href="./why-rechok.html">Oferta</a></li>
-                  <li><a href="./about-product.html">Razem50plus</a></li>
-                  <li><a href="./about-us.html">O nas</a></li>
-                  <li><a href="./contact.html">Kontakt</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-11 col-sm-offset-1 copyright">
-                <span>Copyright 2017 &copy; - SeniorTime - All Rights Reserved</span>
-              </div>
-            </div>
-          </div>
+	  
+	  
+	  <!--4 bloki-->
+	  
+	<div class="container">
+	  <div class="row">
+        <div class="col-md-6 col-lg-3 offer">
+			  <p><img src="./assets/images/workshop.jpg" class="img-responsive icon"></p>
+			  <h2 class="area_heading">Szkolimy i doradzamy</h2>
+			  <p class="area_content">Prowadzimy szkolenia i 
+			  warsztaty o „Seniorze-konsumencie” oraz  wspieramy  doradztwem
+			  w zakresie marketingu do osób starszych.</p>
+			  <p><a class="btn-primary offer" href="./offer-1.html" role="button">Dowiedz się więcej &raquo;</a></p>
         </div>
+		<div class="col-md-6 col-lg-3 offer">
+			  <p><img src="./assets/images/workshop.jpg" class="img-responsive icon"></p>
+			  <h2 class="area_heading">Szkolimy i doradzamy</h2>
+			  <p class="area_content">Prowadzimy szkolenia i 
+			  warsztaty o „Seniorze-konsumencie” oraz  wspieramy  doradztwem
+			  w zakresie marketingu do osób starszych.</p>
+			  <p><a class="btn-primary offer" href="./offer-2.html" role="button">Dowiedz się więcej &raquo;</a></p>
+        </div>
+        <div class="col-md-6 col-lg-3 offer">
+		      <p><img src="./assets/images/workshop.jpg" class="img-responsive icon"></p>
+			  <h2 class="area_heading">Pytamy Seniorów o opinię</h2>
+			  <p class="area_content">Weryfikujemy Twoje hipotezy i pytania badawcze 
+			  z realnymi seniorami w Internecie, ich potrzeby, motywacje, bariery, obawy.</p>
+			  <p><a class="btn-primary offer" href="./offer-3.html" role="button">Dowiedz się więcej &raquo;</a></p>
+       </div>
+       <div class="col-md-6 col-lg-3 offer">
+			  <p><img src="./assets/images/workshop.jpg" class="img-responsive icon"></p>
+			  <h2 class="area_heading">Przeprowadzamy kampanie</h2>
+              <p class="area_content">Udostępniamy na Twoją reklamę i działania PR
+		      jeden z największych portali dla seniorów, którego jesteśmy Wydawcą.</p>
+              <p><a class="btn-primary offer" href="./offer-4.html" role="button">Dowiedz się więcej &raquo;</a></p>
+        </div>
+		<br/>
       </div>
+	  </section>
+	  </main>
+      <br/>
+      <footer class="footer">
+        <p class="footer_content">Senior<b>Time</b> &copy; 2017, All Rights Reserved      tel:   (+48) 792 250 883     |    email:  biuro@senior-time.pl</p>
+      </footer>
     </div>
-  </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   
-</div>
-
-<!--komentarze:
-- nie działa hamburger menu
--->
-
-</body>
+  </body>
 </html>
