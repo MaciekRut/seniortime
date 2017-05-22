@@ -1,7 +1,7 @@
 
 /*menu*/
 
-.navbar-brand>img {
+img.img-responsive{
 	display: block;
     width: 471px;
     margin-top: -4px;
@@ -86,7 +86,7 @@ p.slogan1 {
 p.positioning {
     color: white;
 	margin-top: 33px;
-	font-size: 23px;
+	font-size: 24px;
 }
 
 
