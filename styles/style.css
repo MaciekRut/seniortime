@@ -9,7 +9,7 @@ img.img-responsive.logo{
 }
 
 nav.navbar.navbar-default.navbar-fixed-top {
-    height: 110px;
+    height: 100px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -67,7 +67,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 /*banner*/
 
 .jumbotron {
-    background-image: url(../assets/images/main_banner.png) !important;
+    background: url(../assets/images/main_banner.png) top 103px left fixed !important;
     margin-bottom: 18px;
     margin-top: 73px;
 }
@@ -76,7 +76,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
     margin-top: 80px;
 }
 
-p.slogan1 {
+h1.slogan1 {
     color: white;
     font-size: 34px;
     font-weight: bold;
@@ -129,9 +129,10 @@ img.splash.img-responsive.icon {
     text-align: center;
 }
 
-h2.offer_heading {
+h1.offer_heading {
     color: navy;
 	font-weight:bold;
+	text-align: center;
 }
 
 p.offer_content {
