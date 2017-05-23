@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SeniorTime</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+  <!--jquery-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  
+  <meta name="description" content="SeniorTime">
+  <meta name="keywords" content="Marketing 50+">
+  <meta name="author" content="SeniorTime">
+  <link rel="stylesheet" type="text/css" href = "./styles/style.css">
+  <script type="text/javascript" src="./js/index.js"></script>
+  
+ 
+</head>
+
+
+<body>
+<div class="fluid-container">
+
+<!--menu-->
+
+  <header class="row">
+    <nav class="col-md-12 navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <i class="glyphicon glyphicon-menu-hamburger"></i>
+          </button>
+        </div>
+        <div class="row collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="col-md-12">
+            <ul class="nav nav-pills nav-justified">
+              <li><a class="logo" href="./index.html"><img class="logo visible-lg-block" src="./assets/images/logo_top.png"></a></li>	
+			  <li><a href="./index.html">Home</a></li>			  
+              <li><a href="./offer.html">Oferta</a></li>
+              <li><a href="./about-product.html">Razem50plus</a></li>
+              <li><a href="./about-us.html">O nas</a></li>
+              <li><a href="./contact-us.html" class="active">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+
+  
+  <main class="row contact">
+    <div class="col-sm-12">
+      <div class="container contact-form">
+        <h3 class="text-right">If you want to send us a question just type in your message below and we will reply
+          within 24 hours.</h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <address>
+              <small>Manufactured in Poland for:</small>
+              <br/>
+              <strong>Cambridge Chocolate Technologies Ltd</strong> <br/>
+              Granta Park, Cambridge, UK<br/>
+              CB21 6GP <br/> <br/>
+              <small>Developed in collaboration with:<br/>
+                Lycotec Ltd., Cambridge, UK <br/>
+                www.lycotec.com <br/>
+                contact@rechoc.com
+              </small>
+            </address>
+          </div>
+          <div class="col-sm-offset-1 col-sm-5">
+            <form class="form" novalidate="">
+              <div class="form-group">
+                <label for="contact-input-name">Your first &amp; last name</label>
+                <input class="form-control" id="contact-input-name" name="input-name"
+                       placeholder="Your first &amp; last name" required="" type="text">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-input-email">Your email address</label>
+                <input name="input-email" class="form-control" id="contact-input-email" placeholder="Your email address"
+                       required="" type="email">
+              </div>
+
+              <div class="form-group">
+                <textarea id="textarea-message" name="textarea-message" rows="10" placeholder="Type in your message"
+                          required=""></textarea>
+              </div>
+              <input value="Send message" class="btn btn-default btn-red" type="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <!--footer-->
+  
+  <footer class="row">
+    <div class="col-sm-12 footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 hidden-xs">
+            <h1 class="logo"><a href="./index.html"><img class="img-responsive" src="assets/images/logo_white.png"/></a></h1>
+          </div>
+          <div class="col-sm-9">
+            <div class="row">
+              <div class="col-sm-3 col-sm-offset-1 menu_footer">
+                <ul class="nav nav-pills nav-stacked">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./why-rechok.html">Oferta</a></li>
+                  <li><a href="./about-product.html">Razem50plus</a></li>
+                  <li><a href="./about-us.html">O nas</a></li>
+                  <li><a href="./contact.html">Kontakt</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-11 col-sm-offset-1 copyright">
+                <span>Copyright 2017 &copy; - SeniorTime - All Rights Reserved</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</div>
+
+<!--komentarze:
+- nie działa hamburger menu
+-->
+
+</body>
+</html>

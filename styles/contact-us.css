@@ -1,0 +1,70 @@
+
+.jumbotron {
+    background: url(../assets/images/contact_banner.png) top 93px left fixed !important;
+    margin-bottom: 0px;
+    margin-top: 73px;
+}
+
+/*ramka z forlumarzem i adresem*/
+
+.container.background {
+    background-color: rgba(22, 51, 81, 0.86);
+}
+
+.col-sm-12 {
+    background-color: rgba(22, 51, 81, 0.89);
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.text-right {
+    text-align: left;
+    color: white;
+    margin-bottom: 30px;
+}
+
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    color: white;
+    font-size: 21px;
+}
+
+
+
+input.btn.btn-default.btn-red {
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 183px;
+    font-size: 17px;
+    color: black;
+    display: block;
+    background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
+    text-shadow: none;
+    border: none;
+}
+
+.btn-default:focus, .btn-default:hover {
+    background-color: #62abeb;
+    background-position: 0 -15px;
+}
+
+
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    color: white;
+    font-size: 21px;
+    margin-left: 28px;
+}
