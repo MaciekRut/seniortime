@@ -1,4 +1,18 @@
 
+
+body {
+
+font-family:'sans-serif';
+
+}
+
+h1, h2 {
+
+font-family:'serif';
+
+}
+
+
 /*menu*/
 
 img.img-responsive.logo{
