@@ -2,13 +2,15 @@
 
 body {
 
-font-family:'Open Sans' !important;
+	font-family:'Open Sans' !important;
 
 }
 
 h1, h2 {
 
-font-family:'Alegreya';
+	font-family:'Alegreya';    
+	font-size: 30px;
+    text-align: center;
 
 }
 
@@ -138,10 +140,6 @@ img.splash.img-responsive.icon {
     display: block;
 }
 
-.h2, h2 {
-    font-size: 30px;
-    text-align: center;
-}
 
 h1.offer_heading {
     color: navy;
@@ -162,6 +160,7 @@ h2.area_heading {
     font-size: 19px;
     font-weight: bold;
     line-height: 33px;
+	font-family:'Open sans';
 }
 
 
