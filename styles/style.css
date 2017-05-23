@@ -9,11 +9,17 @@ body {
 h1, h2 {
 
 	font-family:'Alegreya';    
+
+
+}
+
+h2 {
+
+	font-family:'Alegreya';    
 	font-size: 30px;
     text-align: center;
 
 }
-
 
 /*menu*/
 
