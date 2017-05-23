@@ -133,6 +133,7 @@ a.btn.btn-primary.btn-lg.main:hover
 	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
 	border-radius: 0px;
 	margin-right: 205px;
+	border: none;
 }
 
 /* oferta */
