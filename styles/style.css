@@ -94,7 +94,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 /*banner*/
 
 .jumbotron {
-    background: url(../assets/images/main_banner.png) top 93px left fixed !important;
+    background: url(../assets/images/main_banner.png) top 70px left fixed !important;
     margin-bottom: 18px;
     margin-top: 73px;
 }

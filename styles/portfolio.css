@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+
+.jumbotron {
+    background: url(../assets/images/razem50plus_banner.jpg) top 70px left fixed !important;
+    margin-bottom: 0px;
+    margin-top: 73px;
+}
+
