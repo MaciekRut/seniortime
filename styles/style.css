@@ -28,11 +28,19 @@ h2 {
 
 /*menu*/
 
+
 img.img-responsive.logo{
-	display: block;
-    width: 471px;
-    margin-top: -4px;
-    margin-left: -39px;
+    display: block;
+    max-width: 296px;
+    margin-top: -2px;
+    margin-left: -22px;
+}
+
+.navbar-default {
+    background-image: -webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+    background-image: -o-linear-gradient(top,#fff 0,#f8f8f8 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8));
+    background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%);
 }
 
 nav.navbar.navbar-default.navbar-fixed-top {
@@ -47,7 +55,9 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 .navbar-nav {
     float: right;
-    margin-top: 31px;
+    background-color: white;
+    margin-top: 31px; 
+    margin-right:0px;
 }
 
 .navbar-default .navbar-toggle {
@@ -85,7 +95,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .navbar-default {
-    background-color: #fafafa;
+    background-color: white;
     border-color: rgba(20, 20, 134, 0);
 }
 
