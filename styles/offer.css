@@ -5,7 +5,8 @@
 p.offer_content {
     max-width: 100%;
     color: #163351;
-    text-align: center
-    font-size: 23px;
+    text-align: center;
+    font-size: 22px;
     margin-top: 61px;
+    font-weight: 200;
 }
