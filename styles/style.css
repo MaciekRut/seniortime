@@ -45,7 +45,7 @@ img.img-responsive.logo{
 
 nav.navbar.navbar-default.navbar-fixed-top {
     height: 100px;
-    max-width: 1263.33px;
+    /*max-width: 1280px !important;*/
 }
 
 .navbar-default .navbar-nav>li>a {
