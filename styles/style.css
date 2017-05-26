@@ -82,9 +82,9 @@ nav.navbar.navbar-default.navbar-fixed-top {
     background-color: #e7e7e7;
 }
 
-.navbar-default .navbar-nav>.active>a:hover {
-    color: #fcfcfc;
-    background-color: red;
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    /*color: #163351;*/
+    background-color: rgba(102, 175, 239, 0.44);
 }
 
 
@@ -106,7 +106,10 @@ nav.navbar.navbar-default.navbar-fixed-top {
 /*banner*/
 
 .jumbotron {
-    background: url(../assets/images/main_banner.png) top 70px left fixed !important;
+	background: url(../assets/images/main_banner.png) top 70px left fixed no-repeat !important;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
     margin-top: 73px;
 }
@@ -138,13 +141,13 @@ a.btn.btn-primary.btn-lg.main,
 a.btn.btn-primary.btn-lg.main:hover
 
  {
-	float: right;
+	float: left;
 	font-size:23px;
 	color: black;
 	margin-top: -2px;
 	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
 	border-radius: 0px;
-	margin-right: 205px;
+	margin-left: 350px;
 	border: none;
 }
 
@@ -200,37 +203,22 @@ p.area_content {
 	color: #163351;
 }
 
-a.btn.btn-default {
-    display: block;
-    max-width: 150px;
-    margin-left: auto;
-    margin-right: auto;
+a.link.offer {
+    text-decoration: none;
+    color: #65afef;
 }
 
-a.btn-primary.offer {
-    padding: 9px;
-    border-radius: 0px;
-    max-width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-	color:black;
-    display: block;
-	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
+a.link.offer:hover {
+    text-decoration: none;
+    color: #65afef;
+    font-weight:bold;
 }
 
-a.btn-primary.offer {
-    text-decoration:none;
-	padding: 9px;
-    border-radius: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 183px;
-    font-size: 17px;
-	color:black;
-    display: block;
-	background-image: linear-gradient(to bottom,rgb(105, 179, 243) 0,#5da5e5 100%);
-	text-shadow: none;
+p.link.offer {
+    text-align: center;
+    font-size: 16px;
 }
+
 
 /*dlaczego my*/
 

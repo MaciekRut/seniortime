@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+/*tło na >=MD*/
+
+.jumbotron {
+    background-color: white !important;
+
+}
+
+/*tło na SM*/
+
+.jumbotron.small {
+	background: url(../assets/images/razem50plus_banner.jpg) top 9px left -1px fixed !important;
+    margin-bottom: 0px;
+    margin-top: 73px;
+}
+
+.razem50plus {
+    color: #0c0c0c;
+    margin-top: 33px;
+    font-size: 22px;
+    font-weight:200;
+}
+
+p.razem50plus {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+a.razem,
+a.razem:hover,
+a.razem:active {
+    text-decoration: none;
+    color: black;
+}
+
+.opis {
+    margin-top: -30px;
+    margin-left: 10px;
+}
