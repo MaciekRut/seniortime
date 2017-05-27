@@ -1,19 +1,14 @@
 @CHARSET "UTF-8";
 
-/*tło na >=MD*/
-
-.jumbotron {
-    background-color: white !important;
-
+p.offer_content {
+    max-width: 100%;
+    color: #163351;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 61px;
+    font-weight: 200;
 }
 
-/*tło na SM*/
-
-.jumbotron.small {
-	background: url(../assets/images/razem50plus_banner.jpg) top 9px left -1px fixed !important;
-    margin-bottom: 0px;
-    margin-top: 73px;
-}
 
 .razem50plus {
     color: #0c0c0c;
