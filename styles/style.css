@@ -83,8 +83,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    /*color: #163351;*/
-    background-color: rgba(102, 175, 239, 0.44);
+    color: #66afef;
 }
 
 
@@ -115,6 +114,9 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	background: url(../assets/images/main_banner.png) top 10px left -130px fixed !important;
     margin-bottom: 10px;
     margin-top: 73px;
+    /*max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;*/
 }
 
 .slogan {
@@ -199,6 +201,10 @@ h2.area_heading {
     line-height: 33px;
 }
 
+.bottom {
+    margin-top: -13px;
+}
+
 
 p.area_content {
     text-align: center;
@@ -237,6 +243,23 @@ section.why {
     background-color: rgba(97, 170, 234, 0.36);
     margin-top: 35px;
 }
+
+/*opisy na podstronach*/
+
+.razem50plus {
+    color: #0c0c0c;
+    margin-top: 33px;
+    font-size: 22px;
+    font-weight:200;
+}
+
+p.razem50plus {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+
+
 
 /*footer*/
 

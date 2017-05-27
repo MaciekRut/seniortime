@@ -9,7 +9,6 @@ p.offer_content {
     font-weight: 200;
 }
 
-
 .razem50plus {
     color: #0c0c0c;
     margin-top: 33px;
@@ -29,7 +28,7 @@ a.razem:active {
     color: black;
 }
 
-.opis {
-    margin-top: -30px;
-    margin-left: 10px;
+section.o-nas {
+    margin-top: 105px;
+    margin-bottom: 25px;
 }
