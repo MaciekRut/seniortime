@@ -32,3 +32,9 @@ section.o-nas {
     margin-top: 105px;
     margin-bottom: 25px;
 }
+
+img.loga {
+    max-width: 120px;
+    margin-left: 20px;
+    margin-bottom: 22px;
+}
